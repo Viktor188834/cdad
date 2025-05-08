@@ -10,7 +10,7 @@ Section:NewSlider("jump power", "UUUP!", 500, 1, function(p)
 end)
 Section:NewToggle("Esp", "Esp", function(state)
     if state then
-        while wait(0.5) do
+        while wait(1) do
     for i, childrik in ipairs(workspace:GetDescendants()) do
         if childrik:FindFirstChild("Humanoid") then
             if not childrik:FindFirstChild("EspBox") then
@@ -19,7 +19,7 @@ Section:NewToggle("Esp", "Esp", function(state)
                     esp.Adornee = childrik
                     esp.ZIndex = 0
                     esp.Size = Vector3.new(4, 5, 1)
-                    esp.Transparency = 0.65
+                    esp.Transparency = 0.75
                     esp.Color3 = Color3.fromRGB(255,48,48)
                     esp.AlwaysOnTop = true
                     esp.Name = "EspBox"

@@ -19,7 +19,7 @@ Section:NewToggle("Esp", "Esp", function(state)
                     esp.Adornee = childrik
                     esp.ZIndex = 0
                     esp.Size = Vector3.new(4, 5, 1)
-                    esp.Transparency = 0.75
+                    esp.Transparency = 0.5
                     esp.Color3 = Color3.fromRGB(255,48,48)
                     esp.AlwaysOnTop = true
                     esp.Name = "EspBox"

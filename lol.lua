@@ -10,7 +10,7 @@ Section:NewSlider("jump power", "UUUP!", 500, 1, function(p)
 end)
 Section:NewToggle("Esp", "Esp", function(state)
     if state then
-        while wait(1) do
+        while wait(30) do
     for i, childrik in ipairs(workspace:GetDescendants()) do
         if childrik:FindFirstChild("Humanoid") then
             if not childrik:FindFirstChild("EspBox") then
